@@ -14,3 +14,16 @@
         font-size: 48px;
     }
 }
+
+.descr {
+    font-size: 14px;
+    line-height: 21px;
+    &_bold {
+        font-weight: bold;
+    }
+}
+
+.text {
+    font-size: 12px;
+    line-height: 18px;
+}
