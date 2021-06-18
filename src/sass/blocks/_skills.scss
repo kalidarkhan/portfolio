@@ -1,0 +1,47 @@
+.skills {
+    padding-top: 120px;
+    &__wrapper {
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 270px);
+        grid-template-rows: repeat(2, minmax(270px, auto));
+        grid-auto-rows: minmax(270px, auto);
+        gap: 13px;
+    }
+    &__item {
+        padding: 30px;
+        border: 1px solid;
+        .text {
+            margin-top: 15px;
+        }
+    }
+    &__icon {
+        height: 65px;
+        margin-bottom: 20px;;
+    }
+    &__percent {
+        padding-top: 120px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 350px);
+        grid-template-rows: repeat(2, minmax(70px, auto));
+        grid-auto-rows: repeat(2, minmax(70px, auto));
+        column-gap: 45px;
+        row-gap: 30px;
+        &-indicator {
+            margin-top: 27px;
+            width: 350px;
+            height: 14px;
+            background: #E8E4DE;
+            border-radius: 4px;
+            span {
+                display: block;
+                background-color: $main-color;
+                height: 14px;
+            }
+        }
+        &-flex {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
