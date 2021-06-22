@@ -10,7 +10,7 @@
     }
     &__item {
         display: grid;
-        grid-template: repeat(2, 1fr) / 186px 121px;
+        grid-template: repeat(2, 1fr) / repeat(2, auto);
         grid-auto-rows: 1fr;
         justify-content: space-between;
         &_vertical {
