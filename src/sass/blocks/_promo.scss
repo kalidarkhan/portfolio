@@ -16,12 +16,6 @@
         line-height: 45px;
         text-decoration: none;
     }
-    &__mixin {
-        position: relative;
-        @include before-circle;
-        z-index: 1;
-        padding-left: 10px;
-    }
 }
 
 .hamburger {
