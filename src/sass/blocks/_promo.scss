@@ -4,16 +4,12 @@
     padding-top: 50px;
     &__btns {
         margin-top: 25px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         width: 250px;
     }
     &__link {
         color: black;
         font-weight: bold;
         font-size: 14px;
-        line-height: 45px;
         text-decoration: none;
     }
 }

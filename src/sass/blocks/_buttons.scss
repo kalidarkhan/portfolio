@@ -3,6 +3,17 @@
     background: $main-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover {
+        color: white;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+    }
+    &:active {
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+        transform: translateY(4px);
+    }
 }
 
 .divider {
@@ -14,5 +25,18 @@
     }
     &_mt25 {
         margin-top: 25px;
+    }
+}
+
+.contacts__btn {
+    border: none;
+    cursor: pointer;
+    &:hover {
+        color: white;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+    }
+    &:active {
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+        transform: translateY(4px);
     }
 }
